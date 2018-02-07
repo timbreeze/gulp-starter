@@ -1,0 +1,47 @@
+// Variables
+// Colors, transitions, padding, whatever here
+// $brand: #000000;
+
+// Legacy mixins certain functions like font-sizing fallbacks
+@import '_mixins.scss';
+
+// Vendor
+// SCSS libraries for things like sliders etc.
+@import 'vendor/_normalize.scss';
+// @import 'vendor/slick.scss';
+// @import 'vendor/slick-theme.scss';
+// @import 'vendor/_angled-edges.scss';
+// @import 'vendor/_burger.scss';
+
+// Globals
+// For bigger projects where typography, buttons, etc. need to be broken up for management.
+// @import '_typography.scss';
+
+// Modules
+// Specific individual elements of a website - a card used on several pages
+// @import 'modules/_module.scss';
+
+// Layout
+// Definitions of page layout, & the layout of modules / elements in those pages
+// @import 'layout/_layout.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include font-size(1.6);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}

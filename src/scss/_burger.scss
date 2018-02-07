@@ -1,0 +1,6 @@
+.burger-icon {
+  @include burger(25px, 3px, 5px, $white);
+}
+#nav-toggle.active > .burger-icon {
+  @include burger-to-cross;
+}
