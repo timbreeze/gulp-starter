@@ -8,8 +8,8 @@
  */
 
  // Project related.
-var project              = 'gulp-starter'; // Project Name.
-var projectURL           = 'localhost/gulpstarter'; // Project URL. Could be something like localhost:8888.
+var project              = 'altior-construction'; // Project Name.
+var projectURL           = 'localhost/altior'; // Project URL. Could be something like localhost:8888.
 var productURL           = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
 // Style related.
