@@ -24,6 +24,6 @@
     "jshint": "^2.8.0"
   },
   "dependencies": {
-    "fullpage.js": "^3.0.5"
+    "fullpage.js": "^4.0.5"
   }
 }
